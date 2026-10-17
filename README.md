@@ -1,5 +1,12 @@
 # OpenLayout (open-source)
 
+<p align="center">
+  <img src="docs/images/placereasoner_ariane81_ar2_loop.gif"
+       alt="OpenLayout macro placement optimization loop on ariane81 (aspect ratio 2:1): generate candidates, Gate-A check, detail place, CTS + route, PPA check, optimize"
+       width="90%">
+</p>
+<p align="center"><em>OpenLayout's macro placement optimization loop on ariane81 (81 macros, 154k std cells, 2:1 floorplan): generate candidates &rarr; Gate-A check &rarr; detail place &rarr; CTS + route &rarr; PPA check &rarr; optimizer, until WNS &ge; 0, TNS &ge; 0 and DRC = 0.</em></p>
+
 **End-to-end physical design done by AI.** OpenLayout lets AI agents take a
 netlist from floorplan to a routed, timing-clean layout on **OpenROAD**
 (Nangate45) — no human in the loop. The agents plan macro placement, run
